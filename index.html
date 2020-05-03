@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Something</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="js-clock">
+        <h2>00:00</h2>
+        <h1>00:00</h1>
+    </div>
+    
+    <form class="js-form form">
+        <h2>Hi 
+        <input type="text" class= "name-style" placeholder="Name?"/>
+        </h2>
+    </form>
+    <h2 class="js-greetings greetings"></h2>
+   
+   
+    <form class="js-toDoForm">
+        <input type="text"  class="input-style" placeholder="write a to do" />
+    </form>
+   
+    <ul class="js-toDoList"></ul>
+    <div class="popup"></div>
+    <div class="js-weather">
+        <div class="weather">
+        <i id="icon-desc" class="wi"></i> 
+        <span class="js-weather-temp"></span>
+        <span class="weather-degree">°</span>
+        </div>
+        <span class="js-weather-city"></span>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
